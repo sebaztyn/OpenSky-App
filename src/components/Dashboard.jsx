@@ -7,9 +7,8 @@ import Loading from "./Loading.jsx";
 import Modal from "./Modal.jsx";
 import FlightDetails from "./FlightDetails.jsx";
 import AppBar from "@material-ui/core/AppBar";
-import ToolBar from "@material-ui/core/ToolBar";
+import Toolbar from '@material-ui/core/Toolbar';
 import Typography from "@material-ui/core/Typography";
-import GridList from "@material-ui/core/GridList";
 import Grid from "@material-ui/core/Grid";
 import classes from "../scss/dashboard.module.scss"
 
@@ -119,9 +118,9 @@ export class Dashboard extends Component {
         className={classes.cityDisplay}
       >
         <AppBar position="static">
-          <ToolBar>
+          <Toolbar>
             <Typography>List of Top Airports by Air Traffic</Typography>
-          </ToolBar>
+          </Toolbar>
         </AppBar>
         {citiesList}
         {isModalOpen && (
