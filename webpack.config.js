@@ -59,7 +59,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "epicmail.css"
+      filename: "opensky.css"
     }),
     new HtmlWebpackPlugin(
     { template: 'index.html' }

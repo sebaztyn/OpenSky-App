@@ -12,9 +12,11 @@
     "start": "nodemon -w webpack.config.js -x webpack-dev-server -- --inline --open --compress --mode development"
   },
   "dependencies": {
+    "@material-ui/core": "^4.5.2",
     "axios": "^0.19.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "draft-js": "^0.11.1",
+    "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
@@ -26,8 +28,10 @@
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.6.2",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.6.3",
     "@hot-loader/react-dom": "^16.9.0",
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.6",

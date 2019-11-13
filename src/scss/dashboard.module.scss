@@ -1,0 +1,27 @@
+.cityDisplay {
+  margin-top: 10px;
+}
+
+.citylist:nth-child(even) {
+  background-color: #a09b9bc9;
+}
+
+.citylist {
+  color: #000;
+  text-align: center;
+  width: 70vw
+}
+
+.citylist:nth-child(2):hover {
+  cursor: pointer;
+}
+
+.citylist>span:nth-child(2):hover {
+  cursor: pointer;
+  color: blue;
+
+}
+
+// .citylist:first-child {
+//   margin-top: 10px;
+// }

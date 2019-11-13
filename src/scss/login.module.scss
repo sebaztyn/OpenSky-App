@@ -1,0 +1,29 @@
+.loginContainer {
+  text-align: center;
+}
+
+.loginInput {
+  padding: 0.8em;
+  margin: 0.8em;
+  outline: none;
+  border-radius: 7px;
+}
+
+.loginContainer .loginButton {
+  background-color: #080bd4;
+  color: #fff;
+  outline: none;
+  padding: 0.8em;
+  border-radius: 7px;
+  display: block;
+  width: 50vw;
+  margin: 1em auto;
+}
+
+.loginInput:focus:invalid {
+  border-color: red;
+}
+
+.loginInput:focus:valid {
+  border-color: green;
+}

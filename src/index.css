@@ -1,0 +1,48 @@
+* {
+  font-family: Raleway, sans-serif, Arial;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+#modal {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal:empty {
+  display: none;
+}
+
+#modal>div {
+  background-color: white;
+  width: 70%;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#modal .buttons {
+  display: inline-block;
+  margin: 15px;
+  background-color: rgb(4, 4,
+      212);
+  color: #fff;
+  width: 50%;
+  font-weight: bolder;
+  padding: 1em;
+  outline: none;
+  border-radius: 7px;
+}
+
+#modal .buttons:hover {
+  background-color: rgb(36, 36, 240);
+}
